@@ -20,16 +20,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2253042-2728-431d-9fc4-27cf0e94b9d2" name="更改" comment="添加消息队列,内存管理有点小bug">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/src/MessageQueue.c" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/MessageQueue.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U_system.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U_system.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U_system.elf" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U_system.elf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U_system.hex" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U_system.hex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U_system.map" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U_system.map" afterDir="false" />
-    </list>
+    <list default="true" id="f2253042-2728-431d-9fc4-27cf0e94b9d2" name="更改" comment="malloc异常，需修改tlsf算法" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -126,7 +117,7 @@
       <workItem from="1722434637272" duration="175000" />
       <workItem from="1722529296865" duration="1122000" />
       <workItem from="1722584676436" duration="17120000" />
-      <workItem from="1722615410828" duration="4143000" />
+      <workItem from="1722615410828" duration="4197000" />
     </task>
     <task id="LOCAL-00001" summary="v0.0.1">
       <option name="closed" value="true" />
@@ -176,7 +167,23 @@
       <option name="project" value="LOCAL" />
       <updated>1722613283173</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="malloc异常，需修改tlsf算法">
+      <option name="closed" value="true" />
+      <created>1722619984732</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1722619984732</updated>
+    </task>
+    <task id="LOCAL-00008" summary="malloc异常，需修改tlsf算法">
+      <option name="closed" value="true" />
+      <created>1722619998529</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1722619998529</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,6 +222,18 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="v0.0.1" />
     <MESSAGE value="添加消息队列,内存管理有点小bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加消息队列,内存管理有点小bug" />
+    <MESSAGE value="malloc异常，需修改tlsf算法" />
+    <option name="LAST_COMMIT_MESSAGE" value="malloc异常，需修改tlsf算法" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Application/inc/MessageQueue.h</url>
+          <line>99</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
