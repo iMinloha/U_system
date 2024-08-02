@@ -2,7 +2,6 @@
 #include "tlsf.h"
 #include "u_stdio.h"
 
-// TODO 整个消息队列都有问题，需要重新设计
 
 /**
  * @brief 系统消息队列
@@ -16,15 +15,20 @@ MessageQueue_t SystemMessageQueue;
  * */
 void initMessageQueue(){
     SystemMessageQueue = (MessageQueue_t) tlsf_malloc(sizeof(struct MessageQueue));
-    SystemMessageQueue->head = (MessageNode_t) tlsf_malloc(sizeof(MessageNode_t));
-    SystemMessageQueue->tail = (MessageNode_t) tlsf_malloc(sizeof(MessageNode_t));
+    SystemMessageQueue->head = tlsf_malloc(sizeof(struct MessageNode));
+    MessageNode_t t = (MessageNode_t) tlsf_malloc(sizeof(struct MessageNode));
+    u_print("t: %p\n", &t);
+
+    if (SystemMessageQueue->head == NULL) u_print("SystemMessageQueue->head NULL\n");
+
     SystemMessageQueue->mutex = (Mutex_t) tlsf_malloc(sizeof(struct _mutex));
     mutex_init(SystemMessageQueue->mutex);
 
     SystemMessageQueue->head->subnode = NULL;
     SystemMessageQueue->length = 0;
     SystemMessageQueue->head->next = NULL;
-//    u_print("%d\n", SystemMessageQueue->head->next == SystemMessageQueue->tail);
+
+    u_print("%p\n", &SystemMessageQueue->head);
 }
 
 
@@ -47,10 +51,9 @@ void publishMessage(char *messageName, void *message, int messageSize, MessageTy
     strcopy(messageNode->messageName, messageName);
     // 消息大小
     messageNode->messageSize = messageSize;
-
-    if(SystemMessageQueue->head != NULL) u_print("SystemMessageQueue->head NULL\n");
     // 查询是否有相同的消息
     MessageNode_t temp = SystemMessageQueue->head;
+    u_print("%p, %p\n", &temp, &SystemMessageQueue->head);
 
 
     while(temp->next != SystemMessageQueue->tail){

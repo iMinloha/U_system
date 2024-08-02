@@ -9,6 +9,13 @@ _OS_WEAK void put_s(char *str){
     while(*str) put_char(*str++);
 }
 
+_OS_WEAK void put_address(void *addr){
+    // Êä³öaddrµÄµØÖ·
+    put_char('0');
+    put_char('X');
+    put_num((int)addr, 16, 0);
+}
+
 _OS_WEAK void put_num(int num, int base, int sign){
     char buf[11];
     int i = 0;
@@ -39,6 +46,7 @@ static int v_printf(const char *fmt, va_list ap){
             case 's': put_s(va_arg(ap,char *)); break;
             case 'f': put_num(va_arg(ap, double), 10, 1); break;
             case 'l': put_num(va_arg(ap, long), 10, 1); break;
+            case 'p': put_address(va_arg(ap, void *)); break;
             default:
                 put_char(*fmt);
                 break;

@@ -20,7 +20,18 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2253042-2728-431d-9fc4-27cf0e94b9d2" name="更改" comment="malloc异常，需修改tlsf算法" />
+    <list default="true" id="f2253042-2728-431d-9fc4-27cf0e94b9d2" name="更改" comment="malloc异常，需修改tlsf算法">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/src/MessageQueue.c" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/MessageQueue.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Drivers/Kernel/src/u_stdio.c" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/Kernel/src/u_stdio.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/U_system.elf.dir/Application/src/MessageQueue.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/U_system.elf.dir/Application/src/MessageQueue.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U_system.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U_system.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U_system.elf" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U_system.elf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U_system.hex" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U_system.hex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U_system.map" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U_system.map" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -117,7 +128,7 @@
       <workItem from="1722434637272" duration="175000" />
       <workItem from="1722529296865" duration="1122000" />
       <workItem from="1722584676436" duration="17120000" />
-      <workItem from="1722615410828" duration="4197000" />
+      <workItem from="1722615410828" duration="5896000" />
     </task>
     <task id="LOCAL-00001" summary="v0.0.1">
       <option name="closed" value="true" />
@@ -183,7 +194,23 @@
       <option name="project" value="LOCAL" />
       <updated>1722619998529</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="malloc异常，需修改tlsf算法">
+      <option name="closed" value="true" />
+      <created>1722620023584</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1722620023584</updated>
+    </task>
+    <task id="LOCAL-00010" summary="malloc异常，需修改tlsf算法">
+      <option name="closed" value="true" />
+      <created>1722620036012</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1722620036012</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
