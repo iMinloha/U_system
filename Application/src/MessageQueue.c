@@ -8,7 +8,7 @@
  * @brief 系统消息队列
  * @note 消息队列位于RAM中
  * */
-MessageQueue_t SystemMessageQueue;
+static MessageQueue_t SystemMessageQueue;
 
 /**
  * @brief 初始化消息队列
@@ -36,8 +36,9 @@ void initMessageQueue(){
  * @param messageType 消息类型
  * */
 void publishMessage(char *messageName, void *message, int messageSize, MessageType messageType){
+    // u_print("%d\n", SystemMessageQueue->head->next == SystemMessageQueue->tail);
     mutex_lock(SystemMessageQueue->mutex);
-
+    u_print("%d\n", SystemMessageQueue->mutex->lockflag);
     // 创建消息节点
     MessageNode_t messageNode = tlsf_malloc(sizeof(struct MessageNode));
     // 初始化消息节点, 消息类型, 消息名称, 消息, 消息大小

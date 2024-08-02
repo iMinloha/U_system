@@ -3652,11 +3652,11 @@ LOAD e:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc
                 0x90000770                memchr
  *(.text*)
  .text.initMessageQueue
-                0x90000810       0x58 CMakeFiles/U_system.elf.dir/Application/src/MessageQueue.c.obj
+                0x90000810       0x40 CMakeFiles/U_system.elf.dir/Application/src/MessageQueue.c.obj
                 0x90000810                initMessageQueue
  .text.publishMessage
-                0x90000868       0xac CMakeFiles/U_system.elf.dir/Application/src/MessageQueue.c.obj
-                0x90000868                publishMessage
+                0x90000850       0xc4 CMakeFiles/U_system.elf.dir/Application/src/MessageQueue.c.obj
+                0x90000850                publishMessage
  .text.LCD_WriteCommand
                 0x90000914       0x30 CMakeFiles/U_system.elf.dir/Application/src/lcd_spi.c.obj
                 0x90000914                LCD_WriteCommand
@@ -4946,10 +4946,8 @@ LOAD e:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc
  .rodata        0x9000d150       0x70 CMakeFiles/U_system.elf.dir/Core/Src/freertos.c.obj
  .rodata        0x9000d1c0       0x10 CMakeFiles/U_system.elf.dir/FATFS/Target/sd_diskio.c.obj
  *(.rodata*)
- .rodata.initMessageQueue.str1.4
-                0x9000d1d0        0x4 CMakeFiles/U_system.elf.dir/Application/src/MessageQueue.c.obj
  .rodata.publishMessage.str1.4
-                0x9000d1d4        0x3 CMakeFiles/U_system.elf.dir/Application/src/MessageQueue.c.obj
+                0x9000d1d0        0x7 CMakeFiles/U_system.elf.dir/Application/src/MessageQueue.c.obj
  *fill*         0x9000d1d7        0x1 
  .rodata.ASCII_1206_Table
                 0x9000d1d8      0x474 CMakeFiles/U_system.elf.dir/Application/src/lcd_font.c.obj
@@ -5198,7 +5196,6 @@ LOAD e:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc
  *(.bss*)
  .bss.SystemMessageQueue
                 0x24000a24        0x4 CMakeFiles/U_system.elf.dir/Application/src/MessageQueue.c.obj
-                0x24000a24                SystemMessageQueue
  .bss.LCD       0x24000a28       0x10 CMakeFiles/U_system.elf.dir/Application/src/lcd_spi.c.obj
                 0x24000a28                LCD
  .bss.LCD_AsciiFonts
@@ -5600,123 +5597,123 @@ LOAD e:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc
 LOAD e:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a
 LOAD e:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard\libgcc.a
 
-.debug_info     0x00000000    0x45623
- .debug_info    0x00000000      0x6b3 CMakeFiles/U_system.elf.dir/Application/src/MessageQueue.c.obj
- .debug_info    0x000006b3      0x24b CMakeFiles/U_system.elf.dir/Application/src/lcd_font.c.obj
- .debug_info    0x000008fe     0x2a4d CMakeFiles/U_system.elf.dir/Application/src/lcd_spi.c.obj
- .debug_info    0x0000334b     0x2b14 CMakeFiles/U_system.elf.dir/Application/src/tlsf.c.obj
- .debug_info    0x00005e5f      0x91d CMakeFiles/U_system.elf.dir/Core/Src/dma2d.c.obj
- .debug_info    0x0000677c     0x1343 CMakeFiles/U_system.elf.dir/Core/Src/fmc.c.obj
- .debug_info    0x00007abf     0x1430 CMakeFiles/U_system.elf.dir/Core/Src/freertos.c.obj
- .debug_info    0x00008eef      0x7d5 CMakeFiles/U_system.elf.dir/Core/Src/gpio.c.obj
- .debug_info    0x000096c4      0xacd CMakeFiles/U_system.elf.dir/Core/Src/hash.c.obj
- .debug_info    0x0000a191      0xd4a CMakeFiles/U_system.elf.dir/Core/Src/jpeg.c.obj
- .debug_info    0x0000aedb     0x1262 CMakeFiles/U_system.elf.dir/Core/Src/main.c.obj
- .debug_info    0x0000c13d      0x9ef CMakeFiles/U_system.elf.dir/Core/Src/rng.c.obj
- .debug_info    0x0000cb2c      0xcb0 CMakeFiles/U_system.elf.dir/Core/Src/rtc.c.obj
- .debug_info    0x0000d7dc     0x127d CMakeFiles/U_system.elf.dir/Core/Src/sdmmc.c.obj
- .debug_info    0x0000ea59     0x1234 CMakeFiles/U_system.elf.dir/Core/Src/spi.c.obj
- .debug_info    0x0000fc8d      0x85c CMakeFiles/U_system.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj
- .debug_info    0x000104e9     0x112d CMakeFiles/U_system.elf.dir/Core/Src/stm32h7xx_hal_timebase_tim.c.obj
- .debug_info    0x00011616      0xc48 CMakeFiles/U_system.elf.dir/Core/Src/stm32h7xx_it.c.obj
- .debug_info    0x0001225e      0x7af CMakeFiles/U_system.elf.dir/Core/Src/syscalls.c.obj
- .debug_info    0x00012a0d      0x174 CMakeFiles/U_system.elf.dir/Core/Src/sysmem.c.obj
- .debug_info    0x00012b81      0xd30 CMakeFiles/U_system.elf.dir/Core/Src/system_stm32h7xx.c.obj
- .debug_info    0x000138b1     0x11b6 CMakeFiles/U_system.elf.dir/Core/Src/usart.c.obj
- .debug_info    0x00014a67       0x22 CMakeFiles/U_system.elf.dir/Core/Startup/startup_stm32h750xbhx.s.obj
- .debug_info    0x00014a89      0xcd1 CMakeFiles/U_system.elf.dir/Drivers/Kernel/src/u_stdio.c.obj
- .debug_info    0x0001575a      0x391 CMakeFiles/U_system.elf.dir/Drivers/Kernel/src/u_thread.c.obj
- .debug_info    0x00015aeb     0x16a6 CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj
- .debug_info    0x00017191     0x143e CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj
- .debug_info    0x000185cf     0x15be CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma2d.c.obj
- .debug_info    0x00019b8d      0xd66 CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj
- .debug_info    0x0001a8f3     0x28d9 CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hash.c.obj
- .debug_info    0x0001d1cc     0x26d4 CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_jpeg.c.obj
- .debug_info    0x0001f8a0     0x122e CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj
- .debug_info    0x00020ace     0x1230 CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj
- .debug_info    0x00021cfe     0x1aca CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj
- .debug_info    0x000237c8      0x573 CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rng.c.obj
- .debug_info    0x00023d3b     0x130f CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rtc.c.obj
- .debug_info    0x0002504a     0x2585 CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sd.c.obj
- .debug_info    0x000275cf     0x12bd CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sdram.c.obj
- .debug_info    0x0002888c     0x1b35 CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj
- .debug_info    0x0002a3c1     0x4032 CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.obj
- .debug_info    0x0002e3f3     0x1e7d CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.obj
- .debug_info    0x00030270     0x674e CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj
- .debug_info    0x000369be     0x1256 CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj
- .debug_info    0x00037c14      0xd30 CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_fmc.c.obj
- .debug_info    0x00038944     0x1baf CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_sdmmc.c.obj
- .debug_info    0x0003a4f3      0x54b CMakeFiles/U_system.elf.dir/FATFS/App/fatfs.c.obj
- .debug_info    0x0003aa3e      0xa0e CMakeFiles/U_system.elf.dir/FATFS/Target/bsp_driver_sd.c.obj
- .debug_info    0x0003b44c      0xb47 CMakeFiles/U_system.elf.dir/FATFS/Target/sd_diskio.c.obj
- .debug_info    0x0003bf93      0x434 CMakeFiles/U_system.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.obj
- .debug_info    0x0003c3c7     0x2ab3 CMakeFiles/U_system.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj
- .debug_info    0x0003ee7a      0x2e0 CMakeFiles/U_system.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
- .debug_info    0x0003f15a      0x587 CMakeFiles/U_system.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
- .debug_info    0x0003f6e1      0x5d9 CMakeFiles/U_system.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
- .debug_info    0x0003fcba     0x22fc CMakeFiles/U_system.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
- .debug_info    0x00041fb6     0x3262 CMakeFiles/U_system.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
- .debug_info    0x00045218      0x21c CMakeFiles/U_system.elf.dir/Task/src/LCDTask.c.obj
- .debug_info    0x00045434      0x1ef CMakeFiles/U_system.elf.dir/Task/src/RamTask.c.obj
+.debug_info     0x00000000    0x45627
+ .debug_info    0x00000000      0x6b7 CMakeFiles/U_system.elf.dir/Application/src/MessageQueue.c.obj
+ .debug_info    0x000006b7      0x24b CMakeFiles/U_system.elf.dir/Application/src/lcd_font.c.obj
+ .debug_info    0x00000902     0x2a4d CMakeFiles/U_system.elf.dir/Application/src/lcd_spi.c.obj
+ .debug_info    0x0000334f     0x2b14 CMakeFiles/U_system.elf.dir/Application/src/tlsf.c.obj
+ .debug_info    0x00005e63      0x91d CMakeFiles/U_system.elf.dir/Core/Src/dma2d.c.obj
+ .debug_info    0x00006780     0x1343 CMakeFiles/U_system.elf.dir/Core/Src/fmc.c.obj
+ .debug_info    0x00007ac3     0x1430 CMakeFiles/U_system.elf.dir/Core/Src/freertos.c.obj
+ .debug_info    0x00008ef3      0x7d5 CMakeFiles/U_system.elf.dir/Core/Src/gpio.c.obj
+ .debug_info    0x000096c8      0xacd CMakeFiles/U_system.elf.dir/Core/Src/hash.c.obj
+ .debug_info    0x0000a195      0xd4a CMakeFiles/U_system.elf.dir/Core/Src/jpeg.c.obj
+ .debug_info    0x0000aedf     0x1262 CMakeFiles/U_system.elf.dir/Core/Src/main.c.obj
+ .debug_info    0x0000c141      0x9ef CMakeFiles/U_system.elf.dir/Core/Src/rng.c.obj
+ .debug_info    0x0000cb30      0xcb0 CMakeFiles/U_system.elf.dir/Core/Src/rtc.c.obj
+ .debug_info    0x0000d7e0     0x127d CMakeFiles/U_system.elf.dir/Core/Src/sdmmc.c.obj
+ .debug_info    0x0000ea5d     0x1234 CMakeFiles/U_system.elf.dir/Core/Src/spi.c.obj
+ .debug_info    0x0000fc91      0x85c CMakeFiles/U_system.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj
+ .debug_info    0x000104ed     0x112d CMakeFiles/U_system.elf.dir/Core/Src/stm32h7xx_hal_timebase_tim.c.obj
+ .debug_info    0x0001161a      0xc48 CMakeFiles/U_system.elf.dir/Core/Src/stm32h7xx_it.c.obj
+ .debug_info    0x00012262      0x7af CMakeFiles/U_system.elf.dir/Core/Src/syscalls.c.obj
+ .debug_info    0x00012a11      0x174 CMakeFiles/U_system.elf.dir/Core/Src/sysmem.c.obj
+ .debug_info    0x00012b85      0xd30 CMakeFiles/U_system.elf.dir/Core/Src/system_stm32h7xx.c.obj
+ .debug_info    0x000138b5     0x11b6 CMakeFiles/U_system.elf.dir/Core/Src/usart.c.obj
+ .debug_info    0x00014a6b       0x22 CMakeFiles/U_system.elf.dir/Core/Startup/startup_stm32h750xbhx.s.obj
+ .debug_info    0x00014a8d      0xcd1 CMakeFiles/U_system.elf.dir/Drivers/Kernel/src/u_stdio.c.obj
+ .debug_info    0x0001575e      0x391 CMakeFiles/U_system.elf.dir/Drivers/Kernel/src/u_thread.c.obj
+ .debug_info    0x00015aef     0x16a6 CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj
+ .debug_info    0x00017195     0x143e CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj
+ .debug_info    0x000185d3     0x15be CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma2d.c.obj
+ .debug_info    0x00019b91      0xd66 CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj
+ .debug_info    0x0001a8f7     0x28d9 CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hash.c.obj
+ .debug_info    0x0001d1d0     0x26d4 CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_jpeg.c.obj
+ .debug_info    0x0001f8a4     0x122e CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj
+ .debug_info    0x00020ad2     0x1230 CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj
+ .debug_info    0x00021d02     0x1aca CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj
+ .debug_info    0x000237cc      0x573 CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rng.c.obj
+ .debug_info    0x00023d3f     0x130f CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rtc.c.obj
+ .debug_info    0x0002504e     0x2585 CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sd.c.obj
+ .debug_info    0x000275d3     0x12bd CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sdram.c.obj
+ .debug_info    0x00028890     0x1b35 CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj
+ .debug_info    0x0002a3c5     0x4032 CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.obj
+ .debug_info    0x0002e3f7     0x1e7d CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.obj
+ .debug_info    0x00030274     0x674e CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj
+ .debug_info    0x000369c2     0x1256 CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj
+ .debug_info    0x00037c18      0xd30 CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_fmc.c.obj
+ .debug_info    0x00038948     0x1baf CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_sdmmc.c.obj
+ .debug_info    0x0003a4f7      0x54b CMakeFiles/U_system.elf.dir/FATFS/App/fatfs.c.obj
+ .debug_info    0x0003aa42      0xa0e CMakeFiles/U_system.elf.dir/FATFS/Target/bsp_driver_sd.c.obj
+ .debug_info    0x0003b450      0xb47 CMakeFiles/U_system.elf.dir/FATFS/Target/sd_diskio.c.obj
+ .debug_info    0x0003bf97      0x434 CMakeFiles/U_system.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.obj
+ .debug_info    0x0003c3cb     0x2ab3 CMakeFiles/U_system.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj
+ .debug_info    0x0003ee7e      0x2e0 CMakeFiles/U_system.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
+ .debug_info    0x0003f15e      0x587 CMakeFiles/U_system.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
+ .debug_info    0x0003f6e5      0x5d9 CMakeFiles/U_system.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
+ .debug_info    0x0003fcbe     0x22fc CMakeFiles/U_system.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
+ .debug_info    0x00041fba     0x3262 CMakeFiles/U_system.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+ .debug_info    0x0004521c      0x21c CMakeFiles/U_system.elf.dir/Task/src/LCDTask.c.obj
+ .debug_info    0x00045438      0x1ef CMakeFiles/U_system.elf.dir/Task/src/RamTask.c.obj
 
-.debug_abbrev   0x00000000     0x79b8
- .debug_abbrev  0x00000000      0x187 CMakeFiles/U_system.elf.dir/Application/src/MessageQueue.c.obj
- .debug_abbrev  0x00000187       0xc1 CMakeFiles/U_system.elf.dir/Application/src/lcd_font.c.obj
- .debug_abbrev  0x00000248      0x364 CMakeFiles/U_system.elf.dir/Application/src/lcd_spi.c.obj
- .debug_abbrev  0x000005ac      0x3de CMakeFiles/U_system.elf.dir/Application/src/tlsf.c.obj
- .debug_abbrev  0x0000098a      0x1bc CMakeFiles/U_system.elf.dir/Core/Src/dma2d.c.obj
- .debug_abbrev  0x00000b46      0x279 CMakeFiles/U_system.elf.dir/Core/Src/fmc.c.obj
- .debug_abbrev  0x00000dbf      0x2ba CMakeFiles/U_system.elf.dir/Core/Src/freertos.c.obj
- .debug_abbrev  0x00001079      0x181 CMakeFiles/U_system.elf.dir/Core/Src/gpio.c.obj
- .debug_abbrev  0x000011fa      0x1db CMakeFiles/U_system.elf.dir/Core/Src/hash.c.obj
- .debug_abbrev  0x000013d5      0x1d2 CMakeFiles/U_system.elf.dir/Core/Src/jpeg.c.obj
- .debug_abbrev  0x000015a7      0x295 CMakeFiles/U_system.elf.dir/Core/Src/main.c.obj
- .debug_abbrev  0x0000183c      0x1d1 CMakeFiles/U_system.elf.dir/Core/Src/rng.c.obj
- .debug_abbrev  0x00001a0d      0x1c6 CMakeFiles/U_system.elf.dir/Core/Src/rtc.c.obj
- .debug_abbrev  0x00001bd3      0x206 CMakeFiles/U_system.elf.dir/Core/Src/sdmmc.c.obj
- .debug_abbrev  0x00001dd9      0x20b CMakeFiles/U_system.elf.dir/Core/Src/spi.c.obj
- .debug_abbrev  0x00001fe4      0x12a CMakeFiles/U_system.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj
- .debug_abbrev  0x0000210e      0x21f CMakeFiles/U_system.elf.dir/Core/Src/stm32h7xx_hal_timebase_tim.c.obj
- .debug_abbrev  0x0000232d      0x1b1 CMakeFiles/U_system.elf.dir/Core/Src/stm32h7xx_it.c.obj
- .debug_abbrev  0x000024de      0x1a3 CMakeFiles/U_system.elf.dir/Core/Src/syscalls.c.obj
- .debug_abbrev  0x00002681       0xe7 CMakeFiles/U_system.elf.dir/Core/Src/sysmem.c.obj
- .debug_abbrev  0x00002768      0x14a CMakeFiles/U_system.elf.dir/Core/Src/system_stm32h7xx.c.obj
- .debug_abbrev  0x000028b2      0x20b CMakeFiles/U_system.elf.dir/Core/Src/usart.c.obj
- .debug_abbrev  0x00002abd       0x12 CMakeFiles/U_system.elf.dir/Core/Startup/startup_stm32h750xbhx.s.obj
- .debug_abbrev  0x00002acf      0x23b CMakeFiles/U_system.elf.dir/Drivers/Kernel/src/u_stdio.c.obj
- .debug_abbrev  0x00002d0a      0x18c CMakeFiles/U_system.elf.dir/Drivers/Kernel/src/u_thread.c.obj
- .debug_abbrev  0x00002e96      0x264 CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj
- .debug_abbrev  0x000030fa      0x37d CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj
- .debug_abbrev  0x00003477      0x241 CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma2d.c.obj
- .debug_abbrev  0x000036b8      0x239 CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj
- .debug_abbrev  0x000038f1      0x285 CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hash.c.obj
- .debug_abbrev  0x00003b76      0x23f CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_jpeg.c.obj
- .debug_abbrev  0x00003db5      0x29b CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj
- .debug_abbrev  0x00004050      0x27f CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj
- .debug_abbrev  0x000042cf      0x278 CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj
- .debug_abbrev  0x00004547      0x1bf CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rng.c.obj
- .debug_abbrev  0x00004706      0x1e6 CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rtc.c.obj
- .debug_abbrev  0x000048ec      0x260 CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sd.c.obj
- .debug_abbrev  0x00004b4c      0x200 CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sdram.c.obj
- .debug_abbrev  0x00004d4c      0x280 CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj
- .debug_abbrev  0x00004fcc      0x232 CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.obj
- .debug_abbrev  0x000051fe      0x248 CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.obj
- .debug_abbrev  0x00005446      0x337 CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj
- .debug_abbrev  0x0000577d      0x2f0 CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj
- .debug_abbrev  0x00005a6d      0x1b3 CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_fmc.c.obj
- .debug_abbrev  0x00005c20      0x245 CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_sdmmc.c.obj
- .debug_abbrev  0x00005e65      0x159 CMakeFiles/U_system.elf.dir/FATFS/App/fatfs.c.obj
- .debug_abbrev  0x00005fbe      0x223 CMakeFiles/U_system.elf.dir/FATFS/Target/bsp_driver_sd.c.obj
- .debug_abbrev  0x000061e1      0x2ff CMakeFiles/U_system.elf.dir/FATFS/Target/sd_diskio.c.obj
- .debug_abbrev  0x000064e0      0x1a9 CMakeFiles/U_system.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.obj
- .debug_abbrev  0x00006689      0x435 CMakeFiles/U_system.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj
- .debug_abbrev  0x00006abe      0x106 CMakeFiles/U_system.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
- .debug_abbrev  0x00006bc4      0x26b CMakeFiles/U_system.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
- .debug_abbrev  0x00006e2f      0x24b CMakeFiles/U_system.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
- .debug_abbrev  0x0000707a      0x369 CMakeFiles/U_system.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
- .debug_abbrev  0x000073e3      0x401 CMakeFiles/U_system.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
- .debug_abbrev  0x000077e4       0xf8 CMakeFiles/U_system.elf.dir/Task/src/LCDTask.c.obj
- .debug_abbrev  0x000078dc       0xdc CMakeFiles/U_system.elf.dir/Task/src/RamTask.c.obj
+.debug_abbrev   0x00000000     0x79b6
+ .debug_abbrev  0x00000000      0x185 CMakeFiles/U_system.elf.dir/Application/src/MessageQueue.c.obj
+ .debug_abbrev  0x00000185       0xc1 CMakeFiles/U_system.elf.dir/Application/src/lcd_font.c.obj
+ .debug_abbrev  0x00000246      0x364 CMakeFiles/U_system.elf.dir/Application/src/lcd_spi.c.obj
+ .debug_abbrev  0x000005aa      0x3de CMakeFiles/U_system.elf.dir/Application/src/tlsf.c.obj
+ .debug_abbrev  0x00000988      0x1bc CMakeFiles/U_system.elf.dir/Core/Src/dma2d.c.obj
+ .debug_abbrev  0x00000b44      0x279 CMakeFiles/U_system.elf.dir/Core/Src/fmc.c.obj
+ .debug_abbrev  0x00000dbd      0x2ba CMakeFiles/U_system.elf.dir/Core/Src/freertos.c.obj
+ .debug_abbrev  0x00001077      0x181 CMakeFiles/U_system.elf.dir/Core/Src/gpio.c.obj
+ .debug_abbrev  0x000011f8      0x1db CMakeFiles/U_system.elf.dir/Core/Src/hash.c.obj
+ .debug_abbrev  0x000013d3      0x1d2 CMakeFiles/U_system.elf.dir/Core/Src/jpeg.c.obj
+ .debug_abbrev  0x000015a5      0x295 CMakeFiles/U_system.elf.dir/Core/Src/main.c.obj
+ .debug_abbrev  0x0000183a      0x1d1 CMakeFiles/U_system.elf.dir/Core/Src/rng.c.obj
+ .debug_abbrev  0x00001a0b      0x1c6 CMakeFiles/U_system.elf.dir/Core/Src/rtc.c.obj
+ .debug_abbrev  0x00001bd1      0x206 CMakeFiles/U_system.elf.dir/Core/Src/sdmmc.c.obj
+ .debug_abbrev  0x00001dd7      0x20b CMakeFiles/U_system.elf.dir/Core/Src/spi.c.obj
+ .debug_abbrev  0x00001fe2      0x12a CMakeFiles/U_system.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj
+ .debug_abbrev  0x0000210c      0x21f CMakeFiles/U_system.elf.dir/Core/Src/stm32h7xx_hal_timebase_tim.c.obj
+ .debug_abbrev  0x0000232b      0x1b1 CMakeFiles/U_system.elf.dir/Core/Src/stm32h7xx_it.c.obj
+ .debug_abbrev  0x000024dc      0x1a3 CMakeFiles/U_system.elf.dir/Core/Src/syscalls.c.obj
+ .debug_abbrev  0x0000267f       0xe7 CMakeFiles/U_system.elf.dir/Core/Src/sysmem.c.obj
+ .debug_abbrev  0x00002766      0x14a CMakeFiles/U_system.elf.dir/Core/Src/system_stm32h7xx.c.obj
+ .debug_abbrev  0x000028b0      0x20b CMakeFiles/U_system.elf.dir/Core/Src/usart.c.obj
+ .debug_abbrev  0x00002abb       0x12 CMakeFiles/U_system.elf.dir/Core/Startup/startup_stm32h750xbhx.s.obj
+ .debug_abbrev  0x00002acd      0x23b CMakeFiles/U_system.elf.dir/Drivers/Kernel/src/u_stdio.c.obj
+ .debug_abbrev  0x00002d08      0x18c CMakeFiles/U_system.elf.dir/Drivers/Kernel/src/u_thread.c.obj
+ .debug_abbrev  0x00002e94      0x264 CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj
+ .debug_abbrev  0x000030f8      0x37d CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj
+ .debug_abbrev  0x00003475      0x241 CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma2d.c.obj
+ .debug_abbrev  0x000036b6      0x239 CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj
+ .debug_abbrev  0x000038ef      0x285 CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hash.c.obj
+ .debug_abbrev  0x00003b74      0x23f CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_jpeg.c.obj
+ .debug_abbrev  0x00003db3      0x29b CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj
+ .debug_abbrev  0x0000404e      0x27f CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj
+ .debug_abbrev  0x000042cd      0x278 CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj
+ .debug_abbrev  0x00004545      0x1bf CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rng.c.obj
+ .debug_abbrev  0x00004704      0x1e6 CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rtc.c.obj
+ .debug_abbrev  0x000048ea      0x260 CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sd.c.obj
+ .debug_abbrev  0x00004b4a      0x200 CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sdram.c.obj
+ .debug_abbrev  0x00004d4a      0x280 CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj
+ .debug_abbrev  0x00004fca      0x232 CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.obj
+ .debug_abbrev  0x000051fc      0x248 CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.obj
+ .debug_abbrev  0x00005444      0x337 CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj
+ .debug_abbrev  0x0000577b      0x2f0 CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj
+ .debug_abbrev  0x00005a6b      0x1b3 CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_fmc.c.obj
+ .debug_abbrev  0x00005c1e      0x245 CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_sdmmc.c.obj
+ .debug_abbrev  0x00005e63      0x159 CMakeFiles/U_system.elf.dir/FATFS/App/fatfs.c.obj
+ .debug_abbrev  0x00005fbc      0x223 CMakeFiles/U_system.elf.dir/FATFS/Target/bsp_driver_sd.c.obj
+ .debug_abbrev  0x000061df      0x2ff CMakeFiles/U_system.elf.dir/FATFS/Target/sd_diskio.c.obj
+ .debug_abbrev  0x000064de      0x1a9 CMakeFiles/U_system.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.obj
+ .debug_abbrev  0x00006687      0x435 CMakeFiles/U_system.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj
+ .debug_abbrev  0x00006abc      0x106 CMakeFiles/U_system.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
+ .debug_abbrev  0x00006bc2      0x26b CMakeFiles/U_system.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
+ .debug_abbrev  0x00006e2d      0x24b CMakeFiles/U_system.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
+ .debug_abbrev  0x00007078      0x369 CMakeFiles/U_system.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
+ .debug_abbrev  0x000073e1      0x401 CMakeFiles/U_system.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+ .debug_abbrev  0x000077e2       0xf8 CMakeFiles/U_system.elf.dir/Task/src/LCDTask.c.obj
+ .debug_abbrev  0x000078da       0xdc CMakeFiles/U_system.elf.dir/Task/src/RamTask.c.obj
 
 .debug_loc      0x00000000    0x2ae87
  .debug_loc     0x00000000      0x21b CMakeFiles/U_system.elf.dir/Application/src/MessageQueue.c.obj
@@ -5940,64 +5937,64 @@ LOAD e:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc
  .debug_ranges  0x000029c8       0x18 CMakeFiles/U_system.elf.dir/Task/src/LCDTask.c.obj
  .debug_ranges  0x000029e0       0x18 CMakeFiles/U_system.elf.dir/Task/src/RamTask.c.obj
 
-.debug_line     0x00000000    0x31ad5
- .debug_line    0x00000000      0x452 CMakeFiles/U_system.elf.dir/Application/src/MessageQueue.c.obj
- .debug_line    0x00000452      0x150 CMakeFiles/U_system.elf.dir/Application/src/lcd_font.c.obj
- .debug_line    0x000005a2     0x14e6 CMakeFiles/U_system.elf.dir/Application/src/lcd_spi.c.obj
- .debug_line    0x00001a88     0x12ca CMakeFiles/U_system.elf.dir/Application/src/tlsf.c.obj
- .debug_line    0x00002d52      0x2d9 CMakeFiles/U_system.elf.dir/Core/Src/dma2d.c.obj
- .debug_line    0x0000302b      0x5b5 CMakeFiles/U_system.elf.dir/Core/Src/fmc.c.obj
- .debug_line    0x000035e0      0x537 CMakeFiles/U_system.elf.dir/Core/Src/freertos.c.obj
- .debug_line    0x00003b17      0x287 CMakeFiles/U_system.elf.dir/Core/Src/gpio.c.obj
- .debug_line    0x00003d9e      0x284 CMakeFiles/U_system.elf.dir/Core/Src/hash.c.obj
- .debug_line    0x00004022      0x291 CMakeFiles/U_system.elf.dir/Core/Src/jpeg.c.obj
- .debug_line    0x000042b3      0x63c CMakeFiles/U_system.elf.dir/Core/Src/main.c.obj
- .debug_line    0x000048ef      0x2d0 CMakeFiles/U_system.elf.dir/Core/Src/rng.c.obj
- .debug_line    0x00004bbf      0x302 CMakeFiles/U_system.elf.dir/Core/Src/rtc.c.obj
- .debug_line    0x00004ec1      0x3a0 CMakeFiles/U_system.elf.dir/Core/Src/sdmmc.c.obj
- .debug_line    0x00005261      0x44f CMakeFiles/U_system.elf.dir/Core/Src/spi.c.obj
- .debug_line    0x000056b0      0x1db CMakeFiles/U_system.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj
- .debug_line    0x0000588b      0x304 CMakeFiles/U_system.elf.dir/Core/Src/stm32h7xx_hal_timebase_tim.c.obj
- .debug_line    0x00005b8f      0x30e CMakeFiles/U_system.elf.dir/Core/Src/stm32h7xx_it.c.obj
- .debug_line    0x00005e9d      0x428 CMakeFiles/U_system.elf.dir/Core/Src/syscalls.c.obj
- .debug_line    0x000062c5      0x1f2 CMakeFiles/U_system.elf.dir/Core/Src/sysmem.c.obj
- .debug_line    0x000064b7      0x495 CMakeFiles/U_system.elf.dir/Core/Src/system_stm32h7xx.c.obj
- .debug_line    0x0000694c      0x3ca CMakeFiles/U_system.elf.dir/Core/Src/usart.c.obj
- .debug_line    0x00006d16       0x97 CMakeFiles/U_system.elf.dir/Core/Startup/startup_stm32h750xbhx.s.obj
- .debug_line    0x00006dad      0x6c4 CMakeFiles/U_system.elf.dir/Drivers/Kernel/src/u_stdio.c.obj
- .debug_line    0x00007471      0x1e9 CMakeFiles/U_system.elf.dir/Drivers/Kernel/src/u_thread.c.obj
- .debug_line    0x0000765a      0x918 CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj
- .debug_line    0x00007f72      0x80d CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj
- .debug_line    0x0000877f     0x12a5 CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma2d.c.obj
- .debug_line    0x00009a24      0x6fd CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj
- .debug_line    0x0000a121     0x22c7 CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hash.c.obj
- .debug_line    0x0000c3e8     0x2c99 CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_jpeg.c.obj
- .debug_line    0x0000f081      0xaed CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj
- .debug_line    0x0000fb6e     0x1303 CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj
- .debug_line    0x00010e71     0x1ff5 CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj
- .debug_line    0x00012e66      0x5d7 CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rng.c.obj
- .debug_line    0x0001343d     0x1090 CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rtc.c.obj
- .debug_line    0x000144cd     0x2a1e CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sd.c.obj
- .debug_line    0x00016eeb      0xc2a CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sdram.c.obj
- .debug_line    0x00017b15     0x29cf CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj
- .debug_line    0x0001a4e4     0x509c CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.obj
- .debug_line    0x0001f580     0x1f48 CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.obj
- .debug_line    0x000214c8     0x671d CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj
- .debug_line    0x00027be5      0xcc4 CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj
- .debug_line    0x000288a9      0x6f8 CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_fmc.c.obj
- .debug_line    0x00028fa1     0x1207 CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_sdmmc.c.obj
- .debug_line    0x0002a1a8      0x27f CMakeFiles/U_system.elf.dir/FATFS/App/fatfs.c.obj
- .debug_line    0x0002a427      0x417 CMakeFiles/U_system.elf.dir/FATFS/Target/bsp_driver_sd.c.obj
- .debug_line    0x0002a83e      0x5e7 CMakeFiles/U_system.elf.dir/FATFS/Target/sd_diskio.c.obj
- .debug_line    0x0002ae25      0x2a4 CMakeFiles/U_system.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.obj
- .debug_line    0x0002b0c9     0x1275 CMakeFiles/U_system.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj
- .debug_line    0x0002c33e      0x3a3 CMakeFiles/U_system.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
- .debug_line    0x0002c6e1      0x754 CMakeFiles/U_system.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
- .debug_line    0x0002ce35      0x786 CMakeFiles/U_system.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
- .debug_line    0x0002d5bb     0x1c4b CMakeFiles/U_system.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
- .debug_line    0x0002f206     0x258e CMakeFiles/U_system.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
- .debug_line    0x00031794      0x1e0 CMakeFiles/U_system.elf.dir/Task/src/LCDTask.c.obj
- .debug_line    0x00031974      0x161 CMakeFiles/U_system.elf.dir/Task/src/RamTask.c.obj
+.debug_line     0x00000000    0x31ad0
+ .debug_line    0x00000000      0x44d CMakeFiles/U_system.elf.dir/Application/src/MessageQueue.c.obj
+ .debug_line    0x0000044d      0x150 CMakeFiles/U_system.elf.dir/Application/src/lcd_font.c.obj
+ .debug_line    0x0000059d     0x14e6 CMakeFiles/U_system.elf.dir/Application/src/lcd_spi.c.obj
+ .debug_line    0x00001a83     0x12ca CMakeFiles/U_system.elf.dir/Application/src/tlsf.c.obj
+ .debug_line    0x00002d4d      0x2d9 CMakeFiles/U_system.elf.dir/Core/Src/dma2d.c.obj
+ .debug_line    0x00003026      0x5b5 CMakeFiles/U_system.elf.dir/Core/Src/fmc.c.obj
+ .debug_line    0x000035db      0x537 CMakeFiles/U_system.elf.dir/Core/Src/freertos.c.obj
+ .debug_line    0x00003b12      0x287 CMakeFiles/U_system.elf.dir/Core/Src/gpio.c.obj
+ .debug_line    0x00003d99      0x284 CMakeFiles/U_system.elf.dir/Core/Src/hash.c.obj
+ .debug_line    0x0000401d      0x291 CMakeFiles/U_system.elf.dir/Core/Src/jpeg.c.obj
+ .debug_line    0x000042ae      0x63c CMakeFiles/U_system.elf.dir/Core/Src/main.c.obj
+ .debug_line    0x000048ea      0x2d0 CMakeFiles/U_system.elf.dir/Core/Src/rng.c.obj
+ .debug_line    0x00004bba      0x302 CMakeFiles/U_system.elf.dir/Core/Src/rtc.c.obj
+ .debug_line    0x00004ebc      0x3a0 CMakeFiles/U_system.elf.dir/Core/Src/sdmmc.c.obj
+ .debug_line    0x0000525c      0x44f CMakeFiles/U_system.elf.dir/Core/Src/spi.c.obj
+ .debug_line    0x000056ab      0x1db CMakeFiles/U_system.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj
+ .debug_line    0x00005886      0x304 CMakeFiles/U_system.elf.dir/Core/Src/stm32h7xx_hal_timebase_tim.c.obj
+ .debug_line    0x00005b8a      0x30e CMakeFiles/U_system.elf.dir/Core/Src/stm32h7xx_it.c.obj
+ .debug_line    0x00005e98      0x428 CMakeFiles/U_system.elf.dir/Core/Src/syscalls.c.obj
+ .debug_line    0x000062c0      0x1f2 CMakeFiles/U_system.elf.dir/Core/Src/sysmem.c.obj
+ .debug_line    0x000064b2      0x495 CMakeFiles/U_system.elf.dir/Core/Src/system_stm32h7xx.c.obj
+ .debug_line    0x00006947      0x3ca CMakeFiles/U_system.elf.dir/Core/Src/usart.c.obj
+ .debug_line    0x00006d11       0x97 CMakeFiles/U_system.elf.dir/Core/Startup/startup_stm32h750xbhx.s.obj
+ .debug_line    0x00006da8      0x6c4 CMakeFiles/U_system.elf.dir/Drivers/Kernel/src/u_stdio.c.obj
+ .debug_line    0x0000746c      0x1e9 CMakeFiles/U_system.elf.dir/Drivers/Kernel/src/u_thread.c.obj
+ .debug_line    0x00007655      0x918 CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj
+ .debug_line    0x00007f6d      0x80d CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj
+ .debug_line    0x0000877a     0x12a5 CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma2d.c.obj
+ .debug_line    0x00009a1f      0x6fd CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj
+ .debug_line    0x0000a11c     0x22c7 CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hash.c.obj
+ .debug_line    0x0000c3e3     0x2c99 CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_jpeg.c.obj
+ .debug_line    0x0000f07c      0xaed CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj
+ .debug_line    0x0000fb69     0x1303 CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj
+ .debug_line    0x00010e6c     0x1ff5 CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj
+ .debug_line    0x00012e61      0x5d7 CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rng.c.obj
+ .debug_line    0x00013438     0x1090 CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rtc.c.obj
+ .debug_line    0x000144c8     0x2a1e CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sd.c.obj
+ .debug_line    0x00016ee6      0xc2a CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sdram.c.obj
+ .debug_line    0x00017b10     0x29cf CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj
+ .debug_line    0x0001a4df     0x509c CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c.obj
+ .debug_line    0x0001f57b     0x1f48 CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c.obj
+ .debug_line    0x000214c3     0x671d CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj
+ .debug_line    0x00027be0      0xcc4 CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj
+ .debug_line    0x000288a4      0x6f8 CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_fmc.c.obj
+ .debug_line    0x00028f9c     0x1207 CMakeFiles/U_system.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_sdmmc.c.obj
+ .debug_line    0x0002a1a3      0x27f CMakeFiles/U_system.elf.dir/FATFS/App/fatfs.c.obj
+ .debug_line    0x0002a422      0x417 CMakeFiles/U_system.elf.dir/FATFS/Target/bsp_driver_sd.c.obj
+ .debug_line    0x0002a839      0x5e7 CMakeFiles/U_system.elf.dir/FATFS/Target/sd_diskio.c.obj
+ .debug_line    0x0002ae20      0x2a4 CMakeFiles/U_system.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.obj
+ .debug_line    0x0002b0c4     0x1275 CMakeFiles/U_system.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj
+ .debug_line    0x0002c339      0x3a3 CMakeFiles/U_system.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
+ .debug_line    0x0002c6dc      0x754 CMakeFiles/U_system.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
+ .debug_line    0x0002ce30      0x786 CMakeFiles/U_system.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
+ .debug_line    0x0002d5b6     0x1c4b CMakeFiles/U_system.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
+ .debug_line    0x0002f201     0x258e CMakeFiles/U_system.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+ .debug_line    0x0003178f      0x1e0 CMakeFiles/U_system.elf.dir/Task/src/LCDTask.c.obj
+ .debug_line    0x0003196f      0x161 CMakeFiles/U_system.elf.dir/Task/src/RamTask.c.obj
 
 .debug_str      0x00000000     0xde29
  .debug_str     0x00000000      0x3b0 CMakeFiles/U_system.elf.dir/Application/src/MessageQueue.c.obj
