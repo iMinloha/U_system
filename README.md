@@ -134,4 +134,3 @@ Minloha: https://blog.minloha.cn
 - [ ] 7.10. 完成串口调试功能
 - [ ] 7.11. 完成RAMFS文件系统
 - [ ] 7.12. 完成BSP支持
-

@@ -95,6 +95,11 @@ void u_sprintf(char *out, const char *fmt, ...);
  * */
 void strcopy(char *dest, char *src);
 
+/**
+ * @brief concatenate two strings
+ * @param dest: destination string
+ * @param src: source string
+ * */
 void strconcat(char *dest, char *src);
 
 /**
@@ -104,6 +109,5 @@ void strconcat(char *dest, char *src);
  * @retval 0 if equal, 1 if not equal
  * */
 int strcmp(char *str1, char *str2);
-
 
 #endif //LCD_U_STDIO_H

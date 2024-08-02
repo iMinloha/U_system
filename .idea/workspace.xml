@@ -20,7 +20,38 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2253042-2728-431d-9fc4-27cf0e94b9d2" name="更改" comment="v0.0.1" />
+    <list default="true" id="f2253042-2728-431d-9fc4-27cf0e94b9d2" name="更改" comment="v0.0.1">
+      <change afterPath="$PROJECT_DIR$/Application/inc/MessageQueue.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/src/MessageQueue.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/Kernel/inc/u_thread.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/Kernel/src/u_thread.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mxproject" beforeDir="false" afterPath="$PROJECT_DIR$/.mxproject" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/inc/tlsf.h" beforeDir="false" afterPath="$PROJECT_DIR$/Application/inc/tlsf.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Inc/stm32h7xx_hal_conf.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Inc/stm32h7xx_hal_conf.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/freertos.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/freertos.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Drivers/Kernel/inc/u_stdio.h" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/Kernel/inc/u_stdio.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Drivers/Kernel/src/u_stdio.c" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/Kernel/src/u_stdio.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/src/LCDTask.c" beforeDir="false" afterPath="$PROJECT_DIR$/Task/src/LCDTask.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task/src/RamTask.c" beforeDir="false" afterPath="$PROJECT_DIR$/Task/src/RamTask.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/U_system.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/U_system.ioc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-26df5aa056d9d45d74d3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2024-07-27T12-21-57-0705.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-U_system.elf-Debug-ab9bee0865fca3d1ec2f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.26.4/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.26.4/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.26.4/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.26.4/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U_system.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U_system.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U_system.elf" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U_system.elf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U_system.hex" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U_system.hex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/U_system.map" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/U_system.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,6 +103,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\stm32\U_System\Drivers\Kernel\inc" />
       <recent name="D:\stm32\U_System\Application\inc" />
     </key>
   </component>
@@ -111,7 +143,11 @@
       <workItem from="1722050994457" duration="6657000" />
       <workItem from="1722069422648" duration="11758000" />
       <workItem from="1722082783812" duration="54000" />
-      <workItem from="1722082850021" duration="66000" />
+      <workItem from="1722082850021" duration="845000" />
+      <workItem from="1722243701687" duration="189000" />
+      <workItem from="1722434637272" duration="175000" />
+      <workItem from="1722529296865" duration="1122000" />
+      <workItem from="1722584676436" duration="16877000" />
     </task>
     <task id="LOCAL-00001" summary="v0.0.1">
       <option name="closed" value="true" />
@@ -137,7 +173,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722082729854</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="v0.0.1">
+      <option name="closed" value="true" />
+      <created>1722082948400</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1722082948400</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,7 +198,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>

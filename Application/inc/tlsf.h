@@ -1,6 +1,8 @@
 #ifndef U_SYSTEM_TLSF_H
 #define U_SYSTEM_TLSF_H
 
+#include "stddef.h"
+
 typedef void* tlsf_t;
 typedef void* pool_t;
 
@@ -123,5 +125,13 @@ int tlsf_check(tlsf_t tlsf);
  * @param pool: 内存池
  * */
 int tlsf_check_pool(pool_t pool);
+
+/**
+ * @brief 内存拷贝
+ * @param dst: 目标地址
+ * @param src: 源地址
+ * @param size: 拷贝大小
+ * */
+void memcopy(void* dst, const void* src, size_t size);
 
 #endif

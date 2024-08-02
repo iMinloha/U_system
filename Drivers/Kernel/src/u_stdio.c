@@ -37,6 +37,8 @@ static int v_printf(const char *fmt, va_list ap){
             case 'x': put_num(va_arg(ap, unsigned int), 16, 0); break;
             case 'c': put_char(va_arg(ap, int)); break;
             case 's': put_s(va_arg(ap,char *)); break;
+            case 'f': put_num(va_arg(ap, double), 10, 1); break;
+            case 'l': put_num(va_arg(ap, long), 10, 1); break;
             default:
                 put_char(*fmt);
                 break;

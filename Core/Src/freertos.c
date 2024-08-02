@@ -184,9 +184,6 @@ void FatFsTask(void const * argument)
   /* USER CODE BEGIN FatFsTask */
   /* Infinite loop */
   for(;;){
-      ThreadLock;
-      u_print("FatFsTask\r\n");
-      ThreadUnlock;
       // FatFs_Check();
   }
   /* USER CODE END FatFsTask */

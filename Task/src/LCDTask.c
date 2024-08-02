@@ -1,5 +1,6 @@
 #include "../inc/LCDTask.h"
 #include "cmsis_os.h"
+#include "MessageQueue.h"
 
 void LCD_Task_Init(){
     LCD_SetTextFont(&ASCII_Font32);
@@ -9,7 +10,9 @@ void LCD_Task_Init(){
 }
 
 void LCD_main(void){
-    // u_print("LCD_main\r\n");
-    lcd_print("bash /home> vim test");
-    osDelay(1000);
+    // ram可以使用
+    ThreadLock;
+    // char* mem = getMessage("LCD_Disp");
+    // u_print("got: %s\r\n", mem);
+    ThreadUnlock;
 }
